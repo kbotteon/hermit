@@ -1,0 +1,27 @@
+= HERMIT: Hobbyist Electronics Research, Measurement, and Instrumentation Tool
+K. Botteon
+:toc: left
+
+== Introduction
+
+HERMIT is a collection of silicon and software source code for an electronics multi-tool, targeting FPGA development boards.
+
+This is a fun hardware software co-design weekend project, and to call it a "Work in Progress" is an understatement.
+
+=== References
+
+[#table-acronyms]
+.Table of Acronyms
+[cols=">3,7"]
+|===
+| FPGA | Field Programmable Gate Array
+| GPP  | General-purpose Processor
+|===
+
+[#table-documents]
+|===
+| https://docs.xilinx.com/r/en-US/ug585-zynq-7000-SoC-TRM[Zynq-7000 Techncial Reference Manual]
+|===
+
+== Architecture
+

@@ -1,0 +1,3 @@
+[submodule "lib/fpga"]
+	path = lib/fpga
+	url = https://github.com/kbotteon/fpga.git
