@@ -25,3 +25,12 @@ This is a fun hardware software co-design weekend project, and to call it a "Wor
 
 == Architecture
 
+== Getting Started
+
+Add a udev rule in `/etc/udev/rules.d/99-picoprobe.rules` or a similar file name.
+
+----
+ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="000c", ENV{ID_SERIAL_SHORT}=="E660C06213257929", MODE:="0666", SYMLINK+="picoprobe-7929"
+----
+
+Change the serial number and symlink to match that of your picoprobe.
