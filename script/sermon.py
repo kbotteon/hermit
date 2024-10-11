@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
-A serial monitor, but simpler than other built-in tools
+A serial monitor that allows arbitrary baud rates
+
+I've had issues with baud rates like 1MBaud on screen on MacOs, but this script
+alleviates that issue. It's also a bit simpler than installing and configuring
+minicom on Linux if you only need a monitor interface. If you need to send text
+over the wire, use an actual terminal program like minicom.
 
 Usage:
   ./sermon.py [-h] device_path baud_rate
 
 Future Work:
-  - It's hard to remember a log of device paths and baud rates; make it possible
-    to load a config file that specifies a list of names associated with paths
-    and baud rates
-
+ [ ] Make it possible to load device paths and baud rates from a YAML config
+     file like the fpgds-cfg tool can do with deployment paths and interfaces
 """
 
 import argparse as libArgparse
@@ -28,8 +31,9 @@ STR_PATH = ">   Path"
 STR_BAUD = ">   Baud"
 STR_NOTE = "> Ctrl+c to Exit"
 
-# Maximum line number to index to; limits output text width
-LINE_MAX = 1000
+# Maximum line number to count to before repeating, so half your terminal isn't
+# taken up printing that you're on line 123093502394 of serial output
+LINE_MAX = 10000
 
 ################################################################################
 
