@@ -13,6 +13,9 @@ Usage:
 Future Work:
  [ ] Make it possible to load device paths and baud rates from a YAML config
      file like the fpgds-cfg tool can do with deployment paths and interfaces
+
+(C) 2024 Kyle Botteon
+This file is part of HERMIT. Refer to LICENSE in the repository.
 """
 
 import argparse as libArgparse
