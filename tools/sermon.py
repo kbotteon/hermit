@@ -2,7 +2,7 @@
 """
 A serial monitor that allows arbitrary baud rates
 
-I've had issues with baud rates like 1MBaud on screen on MacOs, but this script
+I've had issues with baud rates like 1e6 on screen on MacOs, but this script
 alleviates that issue. It's also a bit simpler than installing and configuring
 minicom on Linux if you only need a monitor interface. If you need to send text
 over the wire, use an actual terminal program like minicom.
@@ -15,7 +15,7 @@ Future Work:
      file like the fpgds-cfg tool can do with deployment paths and interfaces
 
 (C) 2024 Kyle Botteon
-This file is part of HERMIT. Refer to LICENSE in the repository.
+This file is part of HERMIT. Refer to LICENSE in that repository.
 """
 
 import argparse as libArgparse

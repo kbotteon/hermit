@@ -5,6 +5,7 @@ Controller for a HERMIT instance
 At the moment, this just enables data downlink from the HERMIT logging core.
 
 (C) 2024 Kyle Botteon
+This file is part of HERMIT. Refer to LICENSE in that repository.
 """
 
 import socket as libSocket
