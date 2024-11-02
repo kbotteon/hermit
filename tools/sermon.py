@@ -15,7 +15,7 @@ Future Work:
      file like the fpgds-cfg tool can do with deployment paths and interfaces
 
 (C) 2024 Kyle Botteon
-This file is part of HERMIT. Refer to LICENSE in that repository.
+This file is part of HERMIT. Refer to the LICENSE in that repository.
 """
 
 import argparse as libArgparse
