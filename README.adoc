@@ -1,11 +1,3 @@
-:title: HERMIT: +
-Hobbyist +
-Electronics +
-Research, +
-Measurement, and +
-Instrumentation +
-Tool
+= HERMIT: Hobbyist Electronics Research, Measurement, and Instrumentation Tool
 
-= {title}
-
-Please refer to the [User Guide](doc/User-Guide.adoc).
+Please refer to the link:./doc/User-Guide.adoc[User Guide].
