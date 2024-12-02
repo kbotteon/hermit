@@ -1,3 +1,6 @@
 [submodule "lib/fpga"]
 	path = lib/fpga
 	url = git@github.com:kbotteon/fpga.git
+[submodule "lib/devtools"]
+	path = lib/devtools
+	url = git@github.com:kbotteon/devtools.git
